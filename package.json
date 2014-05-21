@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KoryNunn/hoverclass/issues"
   },
-  "homepage": "https://github.com/KoryNunn/hoverclass"
+  "homepage": "https://github.com/KoryNunn/hoverclass",
+  "dependencies": {
+    "doc-js": "^0.4.7"
+  }
 }
