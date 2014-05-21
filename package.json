@@ -1,0 +1,19 @@
+{
+  "name": "hoverclass",
+  "version": "1.0.0",
+  "description": "Automatically add a class to selected elements on 'hover' leverageing touch events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KoryNunn/hoverclass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/hoverclass/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/hoverclass"
+}
