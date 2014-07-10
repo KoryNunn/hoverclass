@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/KoryNunn/hoverclass",
   "dependencies": {
-    "doc-js": "^0.4.7"
+    "doc-js": "^1.0.0"
   }
 }
