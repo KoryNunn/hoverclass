@@ -10,7 +10,7 @@ module.exports = function(hoverClass, selector){
         doc(target).addClass(hoverClass);
         down.push(target);
     });
-    doc(document).on('touchend mouseup', function(event){
+    doc(document).on('touchend touchcancel mouseup mousemove', function(event){
         while(down.length){
             doc(down.pop()).removeClass(hoverClass);
         }
