@@ -7,12 +7,12 @@ module.exports = function(hoverClass, selector){
 
     doc(document).on('touchstart mousedown', selector, function(event){
         var target = doc(event.target).closest(selector);
-        target.addClass(hoverClass);
+        doc(target).addClass(hoverClass);
         down.push(target);
     });
     doc(document).on('touchend mouseup', function(event){
         while(down.length){
-            down.pop().removeClass(hoverClass);
+            doc(down.pop()).removeClass(hoverClass);
         }
     });
 };
