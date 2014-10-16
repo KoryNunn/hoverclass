@@ -1,6 +1,6 @@
 {
   "name": "hoverclass",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Automatically add a class to selected elements on 'hover' leverageing touch events.",
   "main": "index.js",
   "scripts": {
